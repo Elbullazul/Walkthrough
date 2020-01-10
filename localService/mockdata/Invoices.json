@@ -5,7 +5,8 @@
 	"ExtendedPrice": 87.2000,
 	"ShipperName": "Fun Inc.",
 	"ShippedDate": "2015-04-01T00:00:00",
-	"Status": "A"
+	"Status": "A",
+	"Rating": 3
   },
   {
 	"ProductName": "Milk",
@@ -13,7 +14,8 @@
 	"ExtendedPrice": 9.99999,
 	"ShipperName": "ACME",
 	"ShippedDate": "2015-02-18T00:00:00",
-	"Status": "B"
+	"Status": "B",
+	"Rating": 4
   },
   {
 	"ProductName": "Canned Beans",
@@ -21,7 +23,8 @@
 	"ExtendedPrice": 6.85000,
 	"ShipperName": "ACME",
 	"ShippedDate": "2015-03-02T00:00:00",
-	"Status": "B"
+	"Status": "B",
+	"Rating": 2
   },
   {
 	"ProductName": "Salad",
@@ -29,7 +32,8 @@
 	"ExtendedPrice": 8.8000,
 	"ShipperName": "ACME",
 	"ShippedDate": "2015-04-12T00:00:00",
-	"Status": "C"
+	"Status": "C",
+	"Rating": 1
   },
   {
 	"ProductName": "Bread",
@@ -37,6 +41,7 @@
 	"ExtendedPrice": 2.71212,
 	"ShipperName": "Fun Inc.",
 	"ShippedDate": "2015-01-27T00:00:00",
-	"Status": "A"
+	"Status": "A",
+	"Rating": 5
   }
 ]
