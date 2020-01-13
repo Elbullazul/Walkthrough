@@ -14,6 +14,11 @@ sap.ui.define([
 		},
 		onOpenDialog : function () {
 			this.getOwnerComponent().openHelloDialog();
+		},
+		onGreet : function () {
+			var oBundle = this.getView().getModel("i18n").getResourceBundle();
+			var sRecipient = this.getView().getModel().getProperty("/recipient/name");
+			MessageToast.show(oBundle.getText("greeting", [sRecipient]));
 		}
 	});
 });

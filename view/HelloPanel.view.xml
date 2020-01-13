@@ -10,6 +10,12 @@
 		expanded="{= !${device>/system/phone} }">
 		<content>
 			<Button
+				id="greetToastButton"
+			    icon="sap-icon://customer-history"
+				text="{i18n>greetMe}"
+				press=".onGreet"
+				class="sapUiSmallMarginEnd sapUiVisibleOnlyOnDesktop"/>
+			<Button
 				id="helloDialogButton"
 			    icon="sap-icon://world"
 				text="{i18n>openDialogButtonText}"
